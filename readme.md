@@ -1,6 +1,6 @@
 # sample ui design
 
-## live server :
+## live server : https://mgkh286.github.io/ui-design/
 
 ###### used colors :
 
