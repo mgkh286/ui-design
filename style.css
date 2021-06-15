@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+  background-color: #1a222b;
+}
+
+.container {
+  border: 5px solid #121a21;
+  border-radius: 1rem;
+  margin: 20rem;
+  background-color: #1a222b;
+}
+
+.container .navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .navbar-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-items .navbar-item {
+  padding: 2rem 1rem;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #545c64;
+  background-color: #545c64;
+  border-radius: 20px;
+  width: 80%;
+  margin: 2rem 3rem;
+}
+
+.select .select-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1rem;
+  margin: 1rem 0.5rem;
+}
+
+.select-items .select-item {
+  padding: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.select-items .select-btn {
+  border: 5px solid transparent;
+  background: #4159f0;
+  padding: 1rem 3rem;
+  border-radius: 15px;
+  font-family: 'Poppins', sans-serif;
+}
